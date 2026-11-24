@@ -27,6 +27,11 @@ All models were trained on a stratified 75/25 train/test split.
 - Lowering the decision threshold raised test recall from 36% to 54%, trading precision (64% to 51%).
 - Logistic odds ratios show the strongest drivers of attrition are overtime and frequent business travel (odds ratios around 7). Higher job involvement and satisfaction are protective.
 
+## Charts
+<img width="857" height="686" alt="roc" src="https://github.com/user-attachments/assets/672c0796-20e5-476f-be69-cc83151a5ab6"/>
+<img width="1146" height="686" alt="drivers" src="https://github.com/user-attachments/assets/fccd3004-a34c-45ae-aed3-f104389cc8fe" />
+<img width="825" height="686" alt="threshold" src="https://github.com/user-attachments/assets/d69c8ebe-e66b-4b93-91d4-ce99032b03e0" />
+
 ## Tools
 Python, pandas, scikit-learn, statsmodels, patsy, seaborn, matplotlib
 
