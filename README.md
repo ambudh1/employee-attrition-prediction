@@ -39,4 +39,6 @@ Python, pandas, scikit-learn, statsmodels, patsy, seaborn, matplotlib
 3. Open `employee-attrition-prediction.ipynb` in Jupyter and run all cells.
 
 ## Limitations
-- Small dataset with only 59 leavers in
+- Small dataset with only 59 leavers in the test set, so results are noisy.
+- Odds ratios show association, not cause.
+- No cross-validation was used.
