@@ -32,6 +32,15 @@ All models were trained on a stratified 75/25 train/test split.
 <img width="1146" height="686" alt="drivers" src="https://github.com/user-attachments/assets/fccd3004-a34c-45ae-aed3-f104389cc8fe" />
 <img width="825" height="686" alt="threshold" src="https://github.com/user-attachments/assets/d69c8ebe-e66b-4b93-91d4-ce99032b03e0" />
 
+## Business Recommendations
+- **Review overtime in high-risk roles.** Overtime had one of the largest odds ratios of leaving (about 7), especially for sales and lab technician roles.
+- **Reduce unnecessary frequent travel** where possible, since frequent travelers had about 7x the odds of leaving.
+- **Use the lower threshold for outreach.** Flagging employees at the tuned cutoff catches about 54% of leavers (vs. 36% at the default), so managers can offer check-ins to the flagged group.
+- **Watch engagement.** Higher job involvement, job satisfaction, and work-life balance were all protective.
+
+## Dataset
+IBM HR Analytics Employee Attrition dataset (1,470 employees, 35 features), publicly available on Kaggle. Place it at `data/Human_Resources.csv` to run the notebook.
+
 ## Tools
 Python, pandas, scikit-learn, statsmodels, patsy, seaborn, matplotlib
 
